@@ -431,9 +431,9 @@
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-react-display-name@^7.0.0":
-  version "7.15.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.15.0.tgz#e8653782ea23613e3f401027de68500024b6f9fa"
-  integrity sha512-6Qxy8EYcb6ZqpfdOHkEk4TzJC/YNxzMiZITQOS6WoIrdyZUU3lbUga+vUkQXUMaLeh5ofsEUYv98a++mq2A3dQ==
+  version "7.15.1"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.15.1.tgz#6aaac6099f1fcf6589d35ae6be1b6e10c8c602b9"
+  integrity sha512-yQZ/i/pUCJAHI/LbtZr413S3VT26qNrEm0M5RRxQJA947/YNYwbZbBaXGDrq6CG5QsZycI1VIP6d7pQaBfP+8Q==
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
@@ -745,10 +745,10 @@
     tslib "~2.3.0"
     unixify "^1.0.0"
 
-"@graphql-tools/delegate@8.0.4":
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-8.0.4.tgz#ae893fe034fb9908609db1d43e1375a8cf81b720"
-  integrity sha512-bBxGz7GAZStBSGM4wwmST2lXxfgaO0EfIKsAq1AwJrERmh+F0h88ixOAnba+lUzeTtm1pnJVVX9juWi6Q1XOSA==
+"@graphql-tools/delegate@8.0.6":
+  version "8.0.6"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-8.0.6.tgz#17d197877094e8609af52e21c5e3fa448fd52c6f"
+  integrity sha512-ZHR6mwHaNQRLzx/2w8ZTHBaB47FqdtkVa0nukUZJSMtv7RMcTTt9ifBwYTVtHL28zYVrJH/DCoUcIZFRv/Okqg==
   dependencies:
     "@graphql-tools/batch-execute" "^8.0.2"
     "@graphql-tools/schema" "^8.0.2"
@@ -819,17 +819,26 @@
     tslib "~2.3.0"
 
 "@graphql-tools/load@^7.1.0":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/load/-/load-7.1.1.tgz#90f8ec9a396e01ce160cf70ce3c8784fbccb79ff"
-  integrity sha512-FcqNqY0HENq0JABWoNQVDDd3cqdcgWyvUFf0p217U/yBtxVGtI+iHDjLgGDocrOkj0ZToJKzqrqhi4BQcSoMqw==
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/load/-/load-7.1.2.tgz#456c6aed645bd0bb11011cbf0c1fd1d3cbfaa834"
+  integrity sha512-H2tLlAmFLjC8CQRTzqHkPJKjXdnYS2JdWsM6iVlKkbxs42ZAVk/OxYEe3Fg61pLV+EqfWtydiDT3xdPy+vqGEg==
   dependencies:
-    "@graphql-tools/merge" "^6.2.17"
+    "@graphql-tools/merge" "^7.0.0"
     "@graphql-tools/utils" "8.0.2"
     import-from "4.0.0"
     p-limit "3.1.0"
     tslib "~2.3.0"
 
-"@graphql-tools/merge@6.2.17", "@graphql-tools/merge@^6.2.16", "@graphql-tools/merge@^6.2.17":
+"@graphql-tools/merge@7.0.0", "@graphql-tools/merge@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-7.0.0.tgz#af3380f5dc4536870397a3bac5afd0cd53e11add"
+  integrity sha512-u7TTwKQ7cybAkn6snYPRg3um/C2u690wlD8TgHITAmGQDAExN/yipSSBgu4rXWopsPLsY0G30mJ8tOWToZVE1w==
+  dependencies:
+    "@graphql-tools/schema" "^8.0.3"
+    "@graphql-tools/utils" "8.0.2"
+    tslib "~2.3.0"
+
+"@graphql-tools/merge@^6.2.16":
   version "6.2.17"
   resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-6.2.17.tgz#4dedf87d8435a5e1091d7cc8d4f371ed1e029f1f"
   integrity sha512-G5YrOew39fZf16VIrc49q3c8dBqQDD0ax5LYPiNja00xsXDi0T9zsEWVt06ApjtSdSF6HDddlu5S12QjeN8Tow==
@@ -839,12 +848,12 @@
     tslib "~2.3.0"
 
 "@graphql-tools/mock@^8.1.2":
-  version "8.1.7"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/mock/-/mock-8.1.7.tgz#0fb97e6fdc77c60f00ba9b61d09a5d75d9dd14dc"
-  integrity sha512-6fMxYQGSJrR4XrhncFdmOicXjUhbrVnil4dy15ky9amcwOiAdSIyn+OZHWi99hJjfdyQSamALjUKRFZjRmOXrA==
+  version "8.1.8"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/mock/-/mock-8.1.8.tgz#754253d38e222c8cc4e19d07e36932d7916aa43d"
+  integrity sha512-ZLt4THOdDrwzMP5bKYaWJwJFYmacQojNWHt5Oo0c50N0jWe+PD/AbPbrn8Jb7mdVMhnxDgdMGwhsEFBhHSKJVA==
   dependencies:
-    "@graphql-tools/merge" "6.2.17"
-    "@graphql-tools/schema" "^8.0.2"
+    "@graphql-tools/merge" "7.0.0"
+    "@graphql-tools/schema" "^8.0.3"
     "@graphql-tools/utils" "8.0.2"
     fast-json-stable-stringify "^2.1.0"
     tslib "~2.3.0"
@@ -891,25 +900,25 @@
     relay-compiler "11.0.2"
     tslib "~2.3.0"
 
-"@graphql-tools/schema@^8.0.0", "@graphql-tools/schema@^8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-8.0.2.tgz#1d21851ed1ddd9cf8974aa24b7cb6b6af99f6232"
-  integrity sha512-LRO9R4Yi7uBVthdxoBgBTZxRCainfKeTlaBUy8MD/W+u8uUKUmdknrnqeWD4tvNwQjDFcEssm1cKwhvge7OqMA==
+"@graphql-tools/schema@^8.0.0", "@graphql-tools/schema@^8.0.2", "@graphql-tools/schema@^8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-8.0.3.tgz#504a6b279be52a278b9c8af90b710c9dcc9ff732"
+  integrity sha512-ufJH7r/RcetVPd3kKCZ16/JTRkOX8aB1yGbYnUjqWEIdYEZc3Fpg7AVlcliu2JlvwR+WSNlgWn2QK76QCsFFdA==
   dependencies:
-    "@graphql-tools/merge" "6.2.17"
+    "@graphql-tools/merge" "7.0.0"
     "@graphql-tools/utils" "8.0.2"
     tslib "~2.3.0"
     value-or-promise "1.0.10"
 
 "@graphql-tools/url-loader@^7.0.3", "@graphql-tools/url-loader@^7.0.4":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/url-loader/-/url-loader-7.0.4.tgz#c43f25b34ebddff633eb0b3b25e5f933530b4c9f"
-  integrity sha512-3NbpAFYwfqwTYitU/H0ih4VuLMTh8WTurWxXwW2vBlg6dSmRGEw+4BLBYG6db9ZFENzeMeVYCpJJAGx9Ku7mjg==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/url-loader/-/url-loader-7.0.6.tgz#feff3b68e5525230e4a44d1a51cef89483c81529"
+  integrity sha512-wU6bhdTLlecrrnPMrmUwuruRXxJPIcavDy7h+v515IDwQ9hs/z9tHQLRCKopgRlmqBocATrFctstmT8k+e0JSQ==
   dependencies:
     "@ardatan/fetch-event-source" "2.0.2"
-    "@graphql-tools/delegate" "8.0.4"
+    "@graphql-tools/delegate" "8.0.6"
     "@graphql-tools/utils" "8.0.2"
-    "@graphql-tools/wrap" "^8.0.4"
+    "@graphql-tools/wrap" "^8.0.6"
     "@n1ru4l/graphql-live-query" "0.7.1"
     "@types/websocket" "1.0.4"
     abort-controller "3.0.0"
@@ -935,12 +944,12 @@
   dependencies:
     tslib "~2.3.0"
 
-"@graphql-tools/wrap@^8.0.4":
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/wrap/-/wrap-8.0.4.tgz#437d9464c9b64eaae11888710ef7999ddbe07904"
-  integrity sha512-8VkV+ElllKoziAWjG5BGMOuOCWxMryW2nv6fjnKKtTObRzS7xh7GLBkLC5rb+4TY/ESLPP00EJccnCI8nY0xNA==
+"@graphql-tools/wrap@^8.0.6":
+  version "8.0.6"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/wrap/-/wrap-8.0.6.tgz#e98113888a6dd4c6f3cd3a27b6a9e2fa113595d3"
+  integrity sha512-iQr/ZQQIy2Xz2szVsQCPJ0R4eyjkX3O3Sy3RNB7x/a7IUBB5fTtUi+StxklpZb4KzKCBdz9VFIkhMTHVjsSxiQ==
   dependencies:
-    "@graphql-tools/delegate" "8.0.4"
+    "@graphql-tools/delegate" "8.0.6"
     "@graphql-tools/schema" "^8.0.2"
     "@graphql-tools/utils" "8.0.2"
     tslib "~2.3.0"
@@ -1412,25 +1421,25 @@
     eslint-visitor-keys "^2.0.0"
 
 "@wry/context@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@wry/context/-/context-0.6.0.tgz#f903eceb89d238ef7e8168ed30f4511f92d83e06"
-  integrity sha512-sAgendOXR8dM7stJw3FusRxFHF/ZinU0lffsA2YTyyIOfic86JX02qlPqPVqJNZJPAxFt+2EE8bvq6ZlS0Kf+Q==
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@wry/context/-/context-0.6.1.tgz#c3c29c0ad622adb00f6a53303c4f965ee06ebeb2"
+  integrity sha512-LOmVnY1iTU2D8tv4Xf6MVMZZ+juIJ87Kt/plMijjN20NMAXGmH4u8bS1t0uT74cZ5gwpocYueV58YwyI8y+GKw==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 "@wry/equality@^0.5.0":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@wry/equality/-/equality-0.5.1.tgz#b22e4e1674d7bf1439f8ccdccfd6a785f6de68b0"
-  integrity sha512-FZKbdpbcVcbDxQrKcaBClNsQaMg9nof1RKM7mReJe5DKUzM5u8S7T+PqwNqvib5O2j2xxF1R4p5O3+b6baTrbw==
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@wry/equality/-/equality-0.5.2.tgz#72c8a7a7d884dff30b612f4f8464eba26c080e73"
+  integrity sha512-oVMxbUXL48EV/C0/M7gLVsoK6qRHPS85x8zECofEZOVvxGmIPLA9o5Z27cc2PoAyZz1S2VoM2A7FLAnpfGlneA==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 "@wry/trie@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@wry/trie/-/trie-0.3.0.tgz#3245e74988c4e3033299e479a1bf004430752463"
-  integrity sha512-Yw1akIogPhAT6XPYsRHlZZIS0tIGmAl9EYXHi2scf7LPKKqdqmow/Hu4kEqP2cJR3EjaU/9L0ZlAjFf3hFxmug==
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@wry/trie/-/trie-0.3.1.tgz#2279b790f15032f8bcea7fc944d27988e5b3b139"
+  integrity sha512-WwB53ikYudh9pIorgxrkHKrQZcCqNM/Q/bDzZBffEaGUKGuHrRb3zZUT9Sh2qw9yogC7SsdRmQ1ER0pqvd3bfw==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 abort-controller@3.0.0:
   version "3.0.0"
@@ -1814,7 +1823,7 @@ auto-bind@~4.0.0:
   resolved "https://registry.yarnpkg.com/auto-bind/-/auto-bind-4.0.0.tgz#e3589fc6c2da8f7ca43ba9f84fa52a744fc997fb"
   integrity sha512-Hdw8qdNiqdJ8LqT0iK0sVzkFbzg6fhnQqqfWhBDxcHZvU75+B+ayzTy8x+k5Ix0Y92XOhOUlx74ps+bA6BeYMQ==
 
-available-typed-arrays@^1.0.2:
+available-typed-arrays@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.4.tgz#9e0ae84ecff20caae6a94a1c3bc39b955649b7a9"
   integrity sha512-SA5mXJWrId1TaQjfxUYghbqQ/hYioKmLJvPJyDuYRtXXenFNMjj4hSSt1Cf1xsuXSXrtxrVC5Ot4eU6cOtBDdA==
@@ -2168,9 +2177,9 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001202, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001228, caniuse-lite@^1.0.30001248:
-  version "1.0.30001248"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001248.tgz#26ab45e340f155ea5da2920dadb76a533cb8ebce"
-  integrity sha512-NwlQbJkxUFJ8nMErnGtT0QTM2TJ33xgz4KXJSMIrjXIbDVdaYueGyjOrLKRtJC+rTiWfi6j5cnZN1NBiSBJGNw==
+  version "1.0.30001249"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001249.tgz#90a330057f8ff75bfe97a94d047d5e14fabb2ee8"
+  integrity sha512-vcX4U8lwVXPdqzPWi6cAJ3FnQaqXbBqy/GZseKNQzRj37J7qZdGcBtxq/QLFNLLlfsoXLUdHw8Iwenri86Tagw==
 
 capital-case@^1.0.4:
   version "1.0.4"
@@ -3020,9 +3029,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.723, electron-to-chromium@^1.3.793:
-  version "1.3.796"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.796.tgz#bd74a4367902c9d432d129f265bf4542cddd9f54"
-  integrity sha512-agwJFgM0FUC1UPPbQ4aII3HamaaJ09fqWGAWYHmzxDWqdmTleCHyyA0kt3fJlTd5M440IaeuBfzXzXzCotnZcQ==
+  version "1.3.797"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.797.tgz#50e0f37ed1011c198dc547ded3827b2e70c1a4fe"
+  integrity sha512-ASVBCRy2E6mPRSFqUxvi5OjMRVHzv36PXfbIllFlRc4ZLPNuhAZjKRHgmtlv37CLvVU/XYdftwtMxW5iYxGlcg==
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -3095,7 +3104,7 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2, es-abstract@^1.18.2:
+es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2, es-abstract@^1.18.2, es-abstract@^1.18.5:
   version "1.18.5"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.18.5.tgz#9b10de7d4c206a3581fd5b2124233e04db49ae19"
   integrity sha512-DDggyJLoS91CkJjgauM5c0yZMjiD1uK3KcaCeAmffGwZ+ODWzOkPN4QwRbsK5DOFf06fywmyLci3ZD8jLGhVYA==
@@ -3798,9 +3807,9 @@ got@^9.6.0:
     url-parse-lax "^3.0.0"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2:
-  version "4.2.6"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
-  integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
+  integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
 graphql-config@^4.0.1:
   version "4.0.1"
@@ -3878,6 +3887,13 @@ has-symbols@^1.0.1, has-symbols@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.2.tgz#165d3070c00309752a1236a479331e3ac56f1423"
   integrity sha512-chXa79rL/UC2KlX17jo3vRGz0azaWEx5tGqZg5pO3NUyEJVB17dMruQlzCCOfUvElghKcm5194+BCRvi2Rv/Gw==
+
+has-tostringtag@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/has-tostringtag/-/has-tostringtag-1.0.0.tgz#7e133818a7d394734f941e73c3d3f9291e658b25"
+  integrity sha512-kFjcSNhnlGV1kyoGk7OXKSawH5JOb/LzUc5w9B02hOTO0dfFRjbHQKvg1d6cf3HbeUmtU9VbbV3qzZ2Teh97WQ==
+  dependencies:
+    has-symbols "^1.0.2"
 
 has-yarn@^2.1.0:
   version "2.1.0"
@@ -4196,11 +4212,12 @@ is-absolute@^1.0.0:
     is-windows "^1.0.1"
 
 is-arguments@^1.0.4:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/is-arguments/-/is-arguments-1.1.0.tgz#62353031dfbee07ceb34656a6bde59efecae8dd9"
-  integrity sha512-1Ij4lOMPl/xB5kBDn7I+b2ttPMKa8szhEIrXDuXQD/oe3HJLTLhqhgGspwgyGd6MOywBUqVvYicF72lkgDnIHg==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/is-arguments/-/is-arguments-1.1.1.tgz#15b3f88fda01f2a97fec84ca761a560f123efa9b"
+  integrity sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA==
   dependencies:
-    call-bind "^1.0.0"
+    call-bind "^1.0.2"
+    has-tostringtag "^1.0.0"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -4220,11 +4237,12 @@ is-binary-path@~2.1.0:
     binary-extensions "^2.0.0"
 
 is-boolean-object@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/is-boolean-object/-/is-boolean-object-1.1.1.tgz#3c0878f035cb821228d350d2e1e36719716a3de8"
-  integrity sha512-bXdQWkECBUIAcCkeH1unwJLIpZYaa5VvuygSyS/c2lf719mTKZDU5UdDRlpd01UjADgmW8RfqaP+mRaVPdr/Ng==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/is-boolean-object/-/is-boolean-object-1.1.2.tgz#5c6dc200246dd9321ae4b885a114bb1f75f63719"
+  integrity sha512-gDYaKHJmnj4aWxyj6YHyXVpdQawtVLHU5cb+eztPGczf6cjuTdwve5ZIEfgXqH4e57An1D1AKf8CZ3kYrQRqYA==
   dependencies:
     call-bind "^1.0.2"
+    has-tostringtag "^1.0.0"
 
 is-buffer@~1.1.6:
   version "1.1.6"
@@ -4251,9 +4269,11 @@ is-core-module@^2.2.0, is-core-module@^2.4.0:
     has "^1.0.3"
 
 is-date-object@^1.0.1:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/is-date-object/-/is-date-object-1.0.4.tgz#550cfcc03afada05eea3dd30981c7b09551f73e5"
-  integrity sha512-/b4ZVsG7Z5XVtIxs/h9W8nvfLgSAyKYdtGWQLbqy6jA1icmgjf8WCoTKgeS4wy5tYaPePouzFMANbnj94c2Z+A==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/is-date-object/-/is-date-object-1.0.5.tgz#0841d5536e724c25597bf6ea62e1bd38298df31f"
+  integrity sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ==
+  dependencies:
+    has-tostringtag "^1.0.0"
 
 is-docker@^2.0.0:
   version "2.2.1"
@@ -4436,16 +4456,16 @@ is-symbol@^1.0.2, is-symbol@^1.0.3:
   dependencies:
     has-symbols "^1.0.2"
 
-is-typed-array@^1.1.3:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/is-typed-array/-/is-typed-array-1.1.5.tgz#f32e6e096455e329eb7b423862456aa213f0eb4e"
-  integrity sha512-S+GRDgJlR3PyEbsX/Fobd9cqpZBuvUS+8asRqYDMLCb2qMzt1oz5m5oxQCxOgUDxiWsOVNi4yaF+/uvdlHlYug==
+is-typed-array@^1.1.3, is-typed-array@^1.1.5:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/is-typed-array/-/is-typed-array-1.1.6.tgz#5887fdc44a7342da94f21ddd22ebad06c7dff69c"
+  integrity sha512-cDIgneTBa/TueUY6AWd7Tyj3jcFF5GAzFd50x3IB9bcjRSfjxkTfGYeD8YUDnrXQ10Q+2Y6rT+ZDwseIX9CI5A==
   dependencies:
-    available-typed-arrays "^1.0.2"
+    available-typed-arrays "^1.0.4"
     call-bind "^1.0.2"
-    es-abstract "^1.18.0-next.2"
+    es-abstract "^1.18.5"
     foreach "^2.0.5"
-    has-symbols "^1.0.1"
+    has-tostringtag "^1.0.0"
 
 is-typedarray@^1.0.0:
   version "1.0.0"
@@ -7604,17 +7624,16 @@ which-module@^2.0.0:
   integrity sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=
 
 which-typed-array@^1.1.2:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/which-typed-array/-/which-typed-array-1.1.4.tgz#8fcb7d3ee5adf2d771066fba7cf37e32fe8711ff"
-  integrity sha512-49E0SpUe90cjpoc7BOJwyPHRqSAd12c10Qm2amdEZrJPCY2NDxaW01zHITrem+rnETY3dwrbH3UUrUwagfCYDA==
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/which-typed-array/-/which-typed-array-1.1.5.tgz#c41c369c37484b4f6a4304fb415f3ad8191069be"
+  integrity sha512-ib2f4KSZPjFfV1g+Up/whdhp9yWhsf1BSoLrPdkAJwvLRl0EYg9CvT6kmPPn6nft0OT/NgmWA/KdUcYZadopeQ==
   dependencies:
-    available-typed-arrays "^1.0.2"
-    call-bind "^1.0.0"
-    es-abstract "^1.18.0-next.1"
+    available-typed-arrays "^1.0.4"
+    call-bind "^1.0.2"
+    es-abstract "^1.18.5"
     foreach "^2.0.5"
-    function-bind "^1.1.1"
-    has-symbols "^1.0.1"
-    is-typed-array "^1.1.3"
+    has-tostringtag "^1.0.0"
+    is-typed-array "^1.1.5"
 
 which@^1.2.9:
   version "1.3.1"
