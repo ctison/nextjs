@@ -32,7 +32,7 @@
     "@lhci/cli": "0.8.1",
     "@next/bundle-analyzer": "11.1.2",
     "@types/node": "16.9.4",
-    "@types/react": "17.0.21",
+    "@types/react": "17.0.22",
     "@typescript-eslint/eslint-plugin": "4.31.1",
     "@typescript-eslint/parser": "4.31.1",
     "concurrently": "6.2.1",
