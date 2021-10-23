@@ -1,4 +1,4 @@
-FROM node:17.0.1@sha256:ac817d2e9750109b99a166b5895f4c3e1faccf3878b5f99d571f5d7b30f3414b as base
+FROM node:17.0.1@sha256:a562ce5da0b5e43107b4acbc5d8845129370f11bcb81c795601dc3d6004d6158 as base
 WORKDIR /app
 COPY package.json yarn.lock ./
 
