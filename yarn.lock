@@ -2488,14 +2488,14 @@ cross-undici-fetch@^0.0.20:
     undici "^4.9.3"
 
 cross-undici-fetch@^0.1.4:
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/cross-undici-fetch/-/cross-undici-fetch-0.1.16.tgz#48ce18c701c7cf8053afe3c1d7e4d62a1952e0cc"
-  integrity sha512-VoL+4GLbq2R7cfpM3wc3RClV6boUAjbpZ485YHsIeBnWYUi4osdDZhh1ohk9+BjrLvAvwmvQwZC5rTEIVQ2eVQ==
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/cross-undici-fetch/-/cross-undici-fetch-0.1.17.tgz#bcde7237543edc4fae138261a2f3454c23029565"
+  integrity sha512-h0kQ+i0DAK/xYIWKtfNCO3zVjBGjCUAQ2YQ1vzgjRxpB6siTUVMvaL8cZ8Kniia9WIRnZHeBtBGnplGzbvDxMA==
   dependencies:
     abort-controller "^3.0.0"
     form-data-encoder "^1.7.1"
     formdata-node "^4.3.1"
-    node-fetch "^2.6.5"
+    node-fetch "^2.6.7"
     undici "^4.9.3"
     web-streams-polyfill "^3.2.0"
 
