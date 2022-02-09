@@ -24,9 +24,9 @@
     "swr": "1.2.1"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "2.5.0",
+    "@graphql-codegen/cli": "2.6.0",
     "@graphql-codegen/typescript": "2.4.3",
-    "@graphql-codegen/typescript-operations": "2.2.4",
+    "@graphql-codegen/typescript-operations": "2.3.0",
     "@graphql-codegen/typescript-react-apollo": "3.2.5",
     "@graphql-codegen/typescript-resolvers": "2.5.0",
     "@lhci/cli": "0.8.2",
