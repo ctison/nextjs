@@ -876,9 +876,9 @@
     value-or-promise "1.0.11"
 
 "@graphql-tools/url-loader@^7.0.11", "@graphql-tools/url-loader@^7.4.2", "@graphql-tools/url-loader@^7.7.2":
-  version "7.7.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/url-loader/-/url-loader-7.7.2.tgz#25bc7f59d123dc1937f6150867153adefc5bbb4f"
-  integrity sha512-7qDLs7zvFg3shr6UDvArYTlhezjsulIGt7bUIve3nZZDgs/x8EAKeod4/+pt1ZUYq19aSMt19N1Een0F+xWWsA==
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/url-loader/-/url-loader-7.8.0.tgz#f2e6f093dd283734a8d81cc6515898199f897170"
+  integrity sha512-4j5X40hpYInM5J7KbURSspEJCi6tPqvEE2kyBOyP0C0YIOYtKgUJTAryjbBXqr+HWGyEwJ2zuQ2cQdVMn8l78A==
   dependencies:
     "@graphql-tools/delegate" "^8.5.1"
     "@graphql-tools/utils" "^8.6.2"
@@ -908,9 +908,9 @@
     tslib "~2.3.0"
 
 "@graphql-tools/wrap@^8.4.2":
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/wrap/-/wrap-8.4.2.tgz#7179ea573686939c6002b200e273cf0e55d6323b"
-  integrity sha512-U6vpfOhp+uyTNsDi1wbk0dpCn6oJ3CmRS2EUpyuzHQDC7YQgAElxn5Wl/eDsKmhJGzGDODKY9M6yHAEH/tRrPQ==
+  version "8.4.3"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/wrap/-/wrap-8.4.3.tgz#cb7d703c41cebe3c32b999d3a28c17e3eac12783"
+  integrity sha512-2bd3GtlqV72idEphLTM8SRiSxEDrMPGE556faW8N5Q2qK7qlCEu9AQK0HNKWKdtEPTHqahndZtIPcdpNN6xGig==
   dependencies:
     "@graphql-tools/delegate" "^8.5.1"
     "@graphql-tools/schema" "^8.3.2"
@@ -2524,14 +2524,14 @@ cssstyle@1.2.1:
     cssom "0.3.x"
 
 csstype@^2.5.2:
-  version "2.6.19"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.19.tgz#feeb5aae89020bb389e1f63669a5ed490e391caa"
-  integrity sha512-ZVxXaNy28/k3kJg0Fou5MiYpp88j7H9hLZp8PDC3jV0WFjfH5E9xHb56L0W59cPbKbcHXeP4qyT8PrHp8t6LcQ==
+  version "2.6.20"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.20.tgz#9229c65ea0b260cf4d3d997cb06288e36a8d6dda"
+  integrity sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==
 
 csstype@^3.0.2:
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
-  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
+  integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
 
 damerau-levenshtein@^1.0.7:
   version "1.0.8"
@@ -6348,9 +6348,9 @@ ts-node@^9:
     yn "3.1.1"
 
 tsconfig-paths@^3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.12.0.tgz#19769aca6ee8f6a1a341e38c8fa45dd9fb18899b"
-  integrity sha512-e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg==
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.13.0.tgz#f3e9b8f6876698581d94470c03c95b3a48c0e3d7"
+  integrity sha512-nWuffZppoaYK0vQ1SQmkSsQzJoHA4s6uzdb2waRpD806x9yfq153AdVsWz4je2qZcW+pENrMQXbGQ3sMCkXuhw==
   dependencies:
     "@types/json5" "^0.0.29"
     json5 "^1.0.1"
