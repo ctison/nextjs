@@ -2013,9 +2013,9 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001283, caniuse-lite@^1.0.30001312:
-  version "1.0.30001312"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001312.tgz#e11eba4b87e24d22697dae05455d5aea28550d5f"
-  integrity sha512-Wiz1Psk2MEK0pX3rUzWaunLTZzqS2JYZFzNKqAiJGiuxIjRPLgV6+VDPOg6lQOUxmDwhTlh198JsTTi8Hzw6aQ==
+  version "1.0.30001313"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz#a380b079db91621e1b7120895874e2fd62ed2e2f"
+  integrity sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==
 
 capital-case@^1.0.4:
   version "1.0.4"
@@ -6447,9 +6447,9 @@ unc-path-regex@^0.1.2:
   integrity sha1-5z3T17DXxe2G+6xrCufYxqadUPo=
 
 undici@^4.9.3:
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-4.14.1.tgz#7633b143a8a10d6d63335e00511d071e8d52a1d9"
-  integrity sha512-WJ+g+XqiZcATcBaUeluCajqy4pEDcQfK1vy+Fo+bC4/mqXI9IIQD/XWHLS70fkGUT6P52Drm7IFslO651OdLPQ==
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-4.15.0.tgz#507ec94bce46bec5c76e934938c50b825eda8258"
+  integrity sha512-kHppwh/y49FLEXl/zYCCbGB0D3nrcWNBczNYCsDdNYzWPs80aQgfKic1PVkJEIc2YlR7m0Lf5i559zbr0AA7FQ==
 
 unique-string@^1.0.0:
   version "1.0.0"
