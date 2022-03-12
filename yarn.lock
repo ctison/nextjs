@@ -719,9 +719,9 @@
     unixify "^1.0.0"
 
 "@graphql-tools/delegate@^8.5.1":
-  version "8.5.1"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-8.5.1.tgz#3d146cc3bb74935116d3f4bddb3affdf14a9712d"
-  integrity sha512-/YPmVxitt57F8sH50pnfXASzOOjEfaUDkX48eF5q6f16+JBncej2zeu+Zm2c68q8MbIxhPlEGfpd0QZeqTvAxw==
+  version "8.5.2"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-8.5.2.tgz#96da4b9daa17bb0bc758538de3ebe4e58132220f"
+  integrity sha512-M7d1jY4orPUC7MBoSKZEP21HTVqVGX+mS0AL6UGxg1L7GCRtaYQeopyKXmnnEmBi5FNZ9KduJgHRtxkS4Hc6uA==
   dependencies:
     "@graphql-tools/batch-execute" "^8.3.2"
     "@graphql-tools/schema" "^8.3.2"
@@ -814,9 +814,9 @@
     tslib "~2.3.0"
 
 "@graphql-tools/mock@^8.1.2":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/mock/-/mock-8.5.2.tgz#c76d5fbe8dc87f6983f0e922d9a50f4410994dff"
-  integrity sha512-5BosbTWkzo5tdxIqoqokGLDPmdTS1tE4QNm6a2ONlXz0MaynPRAQ8b2CcSy/c6r0lDmCdkLtbVrRtV6m/wE6Kw==
+  version "8.5.3"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/mock/-/mock-8.5.3.tgz#bf9fcf7b6085f08afcf67323653a462c4e3606e7"
+  integrity sha512-uvUZ2crfZVcoE5VG7FC5IEQHLoWgIIWg78PfjN5t07GC9AmbUqrqiUms2811Uge6mz+Am4k7wta1b/py4n7fzg==
   dependencies:
     "@graphql-tools/schema" "^8.3.2"
     "@graphql-tools/utils" "^8.6.2"
@@ -876,9 +876,9 @@
     value-or-promise "1.0.11"
 
 "@graphql-tools/url-loader@^7.0.11", "@graphql-tools/url-loader@^7.4.2", "@graphql-tools/url-loader@^7.7.2":
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/url-loader/-/url-loader-7.8.0.tgz#f2e6f093dd283734a8d81cc6515898199f897170"
-  integrity sha512-4j5X40hpYInM5J7KbURSspEJCi6tPqvEE2kyBOyP0C0YIOYtKgUJTAryjbBXqr+HWGyEwJ2zuQ2cQdVMn8l78A==
+  version "7.9.1"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/url-loader/-/url-loader-7.9.1.tgz#e13c7f5b01e4812327feee8d97f76be8d7f25a43"
+  integrity sha512-UYKc0f8jw+MODDb79XKOG8wyvRCG/7KBYtRUfUKed4LBjftjZfF5VovAbF3axiTuzt2FSyPRu8YMEQ7kypkc8g==
   dependencies:
     "@graphql-tools/delegate" "^8.5.1"
     "@graphql-tools/utils" "^8.6.2"
@@ -896,7 +896,6 @@
     subscriptions-transport-ws "^0.11.0"
     sync-fetch "^0.3.1"
     tslib "^2.3.0"
-    valid-url "^1.0.9"
     value-or-promise "^1.0.11"
     ws "^8.3.0"
 
@@ -1344,9 +1343,9 @@
     "@types/node" "*"
 
 "@types/ws@^8.0.0":
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.2.tgz#77e0c2e360e9579da930ffcfa53c5975ea3bdd26"
-  integrity sha512-VXI82ykONr5tacHEojnErTQk+KQSoYbW1NB6iz6wUwrNd+BqfkfggQNoNdCqhJSzbNumShPERbM+Pc5zpfhlbw==
+  version "8.5.3"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.3.tgz#7d25a1ffbecd3c4f2d35068d0b283c037003274d"
+  integrity sha512-6YOoWjruKj1uLf3INHH7D3qTXwFfEsg1kf3c0uDdSBJwfa/llkwIjrAGV7j7mVgGNbzTQ3HiHKKDXl6bJPD97w==
   dependencies:
     "@types/node" "*"
 
@@ -2739,9 +2738,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.4.76:
-  version "1.4.77"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.77.tgz#c26e454cb8721d4ebdae3e276c57cd32e51c32ed"
-  integrity sha512-fiDxw8mO9Ph1Z0bjX2sFTPpi0J0QkOiwOJF+5Q0J0baNc/F9lLePAvDPlnoxvbUYYMizqrKPeotRRkJ9LtxAew==
+  version "1.4.82"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.82.tgz#51e123ca434b1eba8c434ece2b54f095b304a651"
+  integrity sha512-Ks+ANzLoIrFDUOJdjxYMH6CMKB8UQo5modAwvSZTxgF+vEs/U7G5IbWFUp6dS4klPkTDVdxbORuk8xAXXhMsWw==
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -3489,18 +3488,18 @@ graphql-executor@0.0.18:
   integrity sha512-upUSl7tfZCZ5dWG1XkOvpG70Yk3duZKcCoi/uJso4WxJVT6KIrcK4nZ4+2X/hzx46pL8wAukgYHY6iNmocRN+g==
 
 graphql-request@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-4.0.0.tgz#5e4361d33df1a95ccd7ad23a8ebb6bbca9d5622f"
-  integrity sha512-cdqQLCXlBGkaLdkLYRl4LtkwaZU6TfpE7/tnUQFl3wXfUPWN74Ov+Q61VuIh+AltS789YfGB6whghmCmeXLvTw==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-4.1.0.tgz#98d0d8d4458fd81674d8566d0b5781bd2823c26e"
+  integrity sha512-CBFcO6LP7cg+aBMc+x9C1dZEQsKTBZKR2J+HzuB0cR/6aaU4K4/tRXTQu8CDMp5195ZU+DTNKZZOSK1WRbTeAg==
   dependencies:
     cross-fetch "^3.0.6"
     extract-files "^9.0.0"
     form-data "^3.0.0"
 
 graphql-sse@^1.0.1:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/graphql-sse/-/graphql-sse-1.0.6.tgz#4f98e0a06f2020542ed054399116108491263224"
-  integrity sha512-y2mVBN2KwNrzxX2KBncQ6kzc6JWvecxuBernrl0j65hsr6MAS3+Yn8PTFSOgRmtolxugepxveyZVQEuaNEbw3w==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/graphql-sse/-/graphql-sse-1.1.0.tgz#05a8ea0528b4bde1c042caa5a7a63ef244bd3c56"
+  integrity sha512-xE8AGPJa5X+g7iFmRQw/8H+7lXIDJvSkW6lou/XSSq17opPQl+dbKOMiqraHMx52VrDgS061ZVx90OSuqS6ykA==
 
 graphql-tag@^2.11.0, graphql-tag@^2.12.3:
   version "2.12.6"
@@ -3743,9 +3742,9 @@ inquirer@^6.3.1:
     through "^2.3.6"
 
 inquirer@^8.0.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-8.2.0.tgz#f44f008dd344bbfc4b30031f45d984e034a3ac3a"
-  integrity sha512-0crLweprevJ02tTuA6ThpoAERAGyVILC4sS74uib58Xf/zSr1/ZWtmm7D5CI+bSQEaA04f0K7idaHpQbSWgiVQ==
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-8.2.1.tgz#e00022e3e8930a92662f760f020686530a84671d"
+  integrity sha512-pxhBaw9cyTFMjwKtkjePWDhvwzvrNGAw7En4hottzlPvz80GZaMZthdDU35aA6/f5FRZf3uhE057q8w1DE3V2g==
   dependencies:
     ansi-escapes "^4.2.1"
     chalk "^4.1.1"
@@ -3757,7 +3756,7 @@ inquirer@^8.0.0:
     mute-stream "0.0.8"
     ora "^5.4.1"
     run-async "^2.4.0"
-    rxjs "^7.2.0"
+    rxjs "^7.5.5"
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
     through "^2.3.6"
@@ -4464,16 +4463,16 @@ listr-verbose-renderer@^0.5.0:
     figures "^2.0.0"
 
 listr2@^4.0.1:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/listr2/-/listr2-4.0.4.tgz#d098a1c419284fb26e184b5d5889b235e8912245"
-  integrity sha512-vJOm5KD6uZXjSsrwajr+mNacIjf87gWvlBEltPWLbTkslUscWAzquyK4xfe9Zd4RDgO5nnwFyV06FC+uVR+5mg==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/listr2/-/listr2-4.0.5.tgz#9dcc50221583e8b4c71c43f9c7dfd0ef546b75d5"
+  integrity sha512-juGHV1doQdpNT3GSTs9IUN43QJb7KHdF9uqg7Vufs/tG9VTzpFphqF4pm/ICdAABGQxsyNn9CiYA3StkI6jpwA==
   dependencies:
     cli-truncate "^2.1.0"
     colorette "^2.0.16"
     log-update "^4.0.0"
     p-map "^4.0.0"
     rfdc "^1.3.0"
-    rxjs "^7.5.4"
+    rxjs "^7.5.5"
     through "^2.3.8"
     wrap-ansi "^7.0.0"
 
@@ -5708,7 +5707,7 @@ rxjs@^6.3.3, rxjs@^6.4.0, rxjs@^6.6.3:
   dependencies:
     tslib "^1.9.0"
 
-rxjs@^7.2.0, rxjs@^7.5.4:
+rxjs@^7.5.5:
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.5.5.tgz#2ebad89af0f560f460ad5cc4213219e1f7dd4e9f"
   integrity sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==
